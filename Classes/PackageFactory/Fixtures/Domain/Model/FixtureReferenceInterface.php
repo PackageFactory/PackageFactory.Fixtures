@@ -1,7 +1,10 @@
 <?php
 namespace PackageFactory\Fixtures\Domain\Model;
 
-interface FixtureReferenceInterface
+/**
+ * A reference to a fixture
+ */
+interface FixtureReferenceInterface extends FixtureValueInterface
 {
 
 }
