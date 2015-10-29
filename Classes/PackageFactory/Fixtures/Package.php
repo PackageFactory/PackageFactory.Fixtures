@@ -16,7 +16,8 @@ class Package extends BasePackage
 	 * @param \TYPO3\Flow\Core\Bootstrap $bootstrap The current bootstrap
 	 * @return void
 	 */
-	public function boot(\TYPO3\Flow\Core\Bootstrap $bootstrap) {
+	public function boot(\TYPO3\Flow\Core\Bootstrap $bootstrap)
+  {
 		$dispatcher = $bootstrap->getSignalSlotDispatcher();
 
 		$dispatcher->connect('TYPO3\Flow\Configuration\ConfigurationManager', 'configurationManagerReady',

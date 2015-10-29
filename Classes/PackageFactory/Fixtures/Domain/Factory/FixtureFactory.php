@@ -25,7 +25,8 @@ class FixtureFactory
      * @param array $fixtureDefinition
      * @return FixtureInterface
      */
-    public function createFromAssociativeArrayDefinition($key, array $fixtureDefinition) {
+    public function createFromAssociativeArrayDefinition($key, array $fixtureDefinition)
+    {
 
     }
 
