@@ -1,0 +1,23 @@
+# Allow for Fixture identifiers and meta-properties on level 1
+type: dictionary
+properties:
+  '@depends':
+    type: array
+additionalProperties:
+  type: dictionary
+  properties:
+    '@abstract':
+      type: boolean
+    '@extends':
+      type: string
+  additionalProperties:
+    type: [dictionary, string, array]
+    properties:
+      '@ref':
+        type: string
+      '@reference':
+        type: string
+      '@type':
+        type: string
+      '@options':
+        type: dictionary

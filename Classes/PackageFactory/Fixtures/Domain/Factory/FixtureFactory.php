@@ -1,9 +1,9 @@
 <?php
-namespace PackageFactory\Domain\Factory;
+namespace PackageFactory\Fixtures\Domain\Factory;
 
 use TYPO3\Flow\Annotations as Flow;
-use PackageFactory\Domain\Service\FixtureService;
-use PackageFactory\Domain\Model\FixtureInterface;
+use PackageFactory\Fixtures\Domain\Service\FixtureService;
+use PackageFactory\Fixtures\Domain\Model\FixtureInterface;
 
 /**
  * Create Fixtures

@@ -1,5 +1,7 @@
 <?php
-namespace PackageFactory\Domain\Service;
+namespace PackageFactory\Fixtures\Domain\Service;
+
+use TYPO3\Flow\Annotations as Flow;
 
 /**
  * Service methods for fixtures

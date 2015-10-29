@@ -1,19 +1,25 @@
+@depends:
+  - Accounts
+
 'Blog(myBlog)':
   title: 'My Blog'
 
 'Post(firstPost)':
   title: 'The very first Blog Post'
   blog:
-    $ref: myBlog
+    @ref: myBlog
   creationDateTime:
-    $type: 'DateTime'
-    $options:
+    @type: 'DateTime'
+    @options:
       format: 'd.m.Y'
       value: '29.10.2015'
   author:
-    $ref: jonDoe
+    @ref: jonDoe
 
 'TYPO3\Flow\Security\Account(johnDoe)':
+  @abstract: TRUE
   accountIdentifier: 'john.doe'
   roles:
     - 'Foo.Bar:Administrator'
+  something:
+    honestly: dont
