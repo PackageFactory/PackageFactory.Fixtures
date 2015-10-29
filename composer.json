@@ -1,0 +1,13 @@
+{
+    "name": "packagefactory/fixtures",
+    "type": "typo3-flow-package",
+    "description": "Fixtures for your domain models",
+    "require": {
+        "typo3/flow": "3.0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "PackageFactory\\Fixtures": "Classes"
+        }
+    }
+}
